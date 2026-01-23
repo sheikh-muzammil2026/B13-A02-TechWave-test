@@ -62,12 +62,10 @@
 }
 
 .navbar-content{
-    /* max-width: 1140px; */
+  
     justify-content: space-between;
     align-items: center;
     margin: 0px auto;
-
-    /* background-color: #412567; */
     padding: 24px;
    
 }
@@ -118,22 +116,20 @@ gap: 32px;
 
    header{
       width: 100%;
-    /* max-width: 100%; */
+   
 } 
 
 
 .navbar{
     
      width: 100%;
-    /* max-width: 100%; */
+    
 }
     
         .navbar-content {
            
             justify-content:space-between;
             align-items: center;
-            /* margin: 0px auto; */
-
             background-color: #1A0B2E;
             padding: 16px 20px;
            
@@ -160,7 +156,7 @@ gap: 32px;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-   min-height: auto;
+   /* min-height: auto; */
     overflow: hidden;
   
 }
@@ -385,15 +381,12 @@ gap: 32px;
 
 .about{
    background-color: #1A0B2E;
-   /* padding: 50px 200px 120px; */
     padding: 120px 20px;
    text-align: center;
-   /* display: none; */
 }
 
 .about-content{
-    /* max-width: 1200px; */
-    /* margin: 0px auto; */
+
     flex-direction: column;
 }
 
@@ -425,13 +418,10 @@ gap: 32px;
 .about-cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* justify-content: space-between; */
     margin-top: 35px;
     text-align: center;
 }
 .about-cards .card{
-    /* border: 1px solid red; */
-    /* width: 240px; */
      width: 100%;
 }
 .card-number{
@@ -447,7 +437,6 @@ gap: 32px;
 .about{
     width: 100%;
    background-color: #1A0B2E;
-   /* padding: 50px 200px 120px 200px; */
     padding: 40px 20px;
    text-align: center;
 }
@@ -455,14 +444,12 @@ gap: 32px;
 .about-content{
     max-width: 100%;
      width: 100%;
-      padding: 0 16px; 
-    /* margin: 0px auto; */
+      padding: 0 16px;
     flex-direction: column;
 }
 
 .about-title{
     font-size: 2rem;
-    /* margin-bottom: 16px; */
     color: white;
 }
 
@@ -477,12 +464,10 @@ gap: 32px;
     opacity: 80%;
     color: white;
     line-height: 20px;
-    /* margin-bottom: 35px; */
 }
 
 .stat-label{
     text-transform: uppercase;
-     /* margin-bottom: 0px; */
 }
 
 .about-cards{
@@ -491,19 +476,15 @@ gap: 32px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
      gap: 16px;
-    /* justify-content: space-between; */
-    /* margin-top: 35px; */
     text-align: center;
 }
 .about-cards .card{
-    /* border: 1px solid red; */
      width: 100%;
 }
 .card-number{
     color: #00FF88;
     font-size: 3rem;
     font-weight: bold;
-    /* margin-bottom: 24px; */
 }
 
 
@@ -517,7 +498,6 @@ gap: 32px;
 
 
  .choose-cards-container{
-      max-width: 1200px;
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(3, 1fr);
@@ -583,16 +563,17 @@ gap: 32px;
      width: 100%;
     display: grid;
     gap: 16px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+     grid-template-columns: 1fr;
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
 
  }
 
 
 .section-title{
     font-size: 32px;
-
 }
+
  .choose-cards-container .card-1{
     grid-row: span 1;
     gap: 16px;
@@ -637,13 +618,11 @@ gap: 32px;
   /* ============================== Featured-Episodes section ========================== */
 
   .Featured-Episodes{
-    /* max-width: 1600px; */
     padding: 120px 200px;
     background-color: #1A0B2E;
   }
 
 .Featured-cards-container{
-    max-width: 1200px;
     gap: 30px;
     margin: 0 auto;
 }
@@ -722,7 +701,7 @@ gap: 32px;
   }
 
 .Featured-cards-container{
-    max-width: 1200px;
+    /* max-width: 1200px; */
     gap: 16px;
     margin: 0 auto;
     flex-direction: column;
@@ -853,22 +832,14 @@ gap: 32px;
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
+     
      min-height: auto;
-     /* width: 100%;
-     max-width: 100%; */
       padding: 40px 20px;
   }
 
   
   .footer-content{
-    /* width: 100%;
-    max-width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 16px;
-    padding: 16px;
-    */
+
      justify-content: center;
     align-items: center;
     
