@@ -392,8 +392,8 @@ gap: 32px;
 }
 
 .about-content{
-    max-width: 1200px;
-    margin: 0px auto;
+    /* max-width: 1200px; */
+    /* margin: 0px auto; */
     flex-direction: column;
 }
 
@@ -487,7 +487,9 @@ gap: 32px;
 
 .about-cards{
     display: grid;
+    flex-direction: column;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
      gap: 16px;
     /* justify-content: space-between; */
     /* margin-top: 35px; */
